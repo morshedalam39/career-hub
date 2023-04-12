@@ -13,6 +13,7 @@ const Home = () => {
             </div>
             <img className='flex justify-end' src="../../public/cover.png" alt="" srcset="" />
         </div>
+    // hfjkdhfkjdf
     );
 };
 
