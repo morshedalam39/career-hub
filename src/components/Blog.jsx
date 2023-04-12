@@ -2,6 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
+<>
         <section className="dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
             <h2 className="text-2xl font-semibold sm:text-4xl text-center">Frequently Asked Questions</h2>
@@ -26,6 +27,7 @@ const Blog = () => {
             </div>
         </div>
     </section>
+    </>
     );
 };
 
