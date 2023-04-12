@@ -10,7 +10,7 @@ const Headers = () => {
       <nav className="bg-slate-100">
         <div className="flex justify-between container mx-auto py-8 px-6 lg:px-10 items-center relative">
           <h1 className="text-3xl font-bold">
-            Easy<span className="text-orange-500">Jobs</span>{" "}
+            Jobs<span className="text-pink-900">Hub</span>{" "}
           </h1>
 
           {/* NavLink create */}
@@ -39,7 +39,7 @@ const Headers = () => {
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <h1 className="text-3xl font-bold">
-                        Easy<span className="text-orange-500">Jobs</span>{" "}
+                        Jobs<span className="text-pink-900">Hub</span>{" "}
                       </h1>
                     </div>
                     <div>
@@ -68,7 +68,7 @@ const Headers = () => {
                         <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <button className="mt-4 btn btn-primary">
+                        <button className="mt-4 btn btn-active btn-secondary">
                           Start Applying
                         </button>
                       </li>
@@ -81,7 +81,7 @@ const Headers = () => {
 
           {/* Apply button */}
 
-          <button className="hidden lg:block btn btn-primary">
+          <button className="hidden lg:block btn btn-active btn-secondary">
             Start Applying
           </button>
         </div>

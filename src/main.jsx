@@ -10,10 +10,14 @@ import Home from './components/Home';
 import Statistics from './components/Statistics';
 import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
+import JobDetails from './components/JobDetails';
+import ErrorPage from './components/ErrorPage';
+import cartsProductsLoader from './components/Loders/Loders';
 const router =createBrowserRouter([
   {
     path:'/',
     element: <App></App>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:'/',
@@ -27,15 +31,16 @@ const router =createBrowserRouter([
       {
         path:'/appliedJobs',
         element:<AppliedJobs></AppliedJobs>,
-        // loader:cartsProductsLoader,
+        loader:cartsProductsLoader,
         
       },
-      // {
-      //   path:'/appliedJobs',
-      //   element:<AppliedJobs></AppliedJobs>,
-      //   loader:cartsProductsLoader,
+      {
+        path:'/jobDetails/:id',
+        element:<JobDetails></JobDetails>,
+        loader:({params})=>fetch("/AllFeatures.json"),
         
-      // },
+        
+      },
       {
         path:'/blog',
         element:<Blog></Blog>

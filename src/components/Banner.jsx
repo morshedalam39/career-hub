@@ -7,14 +7,14 @@ const Banner = () => {
           <div>
             <h1 className="text-5xl font-bold leading-tight">
               One Step <br></br> Closer To Your<br></br>{" "}
-              <span className="text-teal-500">Dream Job</span>
+              <span className="text-pink-900">Dream Job</span>
             </h1>
             <p className="text-gray-500 my-6 text-lg lg:w-3/5">
               Explore thousands of job opportunities with all the information you
               need. Its your future. Come find it. Manage all your job application
               from start to finish.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-active btn-secondary">Get Started</button>
           </div>
           <div>
             <img src="cover.png" alt="" srcset="" />
