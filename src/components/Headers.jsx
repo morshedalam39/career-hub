@@ -62,7 +62,7 @@ const Headers = () => {
                         <Link to="/statistics">Statistics</Link>
                       </li>
                       <li>
-                        <Link to="/job">Applied Jobs</Link>
+                      <Link to="/appliedJobs">Applied Jobs</Link>
                       </li>
                       <li>
                         <Link to="/blog">Blog</Link>

@@ -8,7 +8,7 @@ const Features = () => {
     const [featuresData, setFeaturesData] = useState(false);
   
     useEffect(() => {
-      fetch("AllFeatures.json")
+      fetch("/AllFeatures.json")
         .then((res) => res.json())
         .then((data) => setFeatures(data));
     }, []);
