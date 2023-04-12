@@ -18,6 +18,7 @@ console.log(data)
     
     return (
         <div>
+          <h1 className="text-center text-4xl font-bold mb-10 mt-3">Assignment Marks Chart</h1>
                <ResponsiveContainer width="90%" height={500}>
         <AreaChart
           width={500}
