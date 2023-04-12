@@ -17,7 +17,7 @@ const Banner = () => {
             <button className="btn btn-active btn-secondary">Get Started</button>
           </div>
           <div>
-            <img src="cover.png" alt="" srcset="" />
+            <img src="cover.png" alt=""  />
           </div>
         </div>
       </section>
